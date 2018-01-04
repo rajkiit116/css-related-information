@@ -260,4 +260,40 @@ a.author{
     top: -100%;
   }
 }
-===
+===================
+<div class="mainDIV">
+    <div class="leftDIV"></div>
+    <div class="middleDIV"></div>
+    <div class="rightDIV"></div>
+</div>
+
+css----
+.mainDIV{
+    position:relative;
+    background:yellow;
+    width:100%;
+    min-width:315px;
+}
+.leftDIV{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:50px;
+    width:100px;
+    background:red;
+}
+.middleDIV{
+    height:50px;
+    width:100px;
+    background:blue;
+    margin:0px auto;
+}
+.rightDIV{
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:50px;
+    width:100px;
+    background:green;
+}
+=====================
